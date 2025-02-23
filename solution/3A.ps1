@@ -1,0 +1,1 @@
+Get-Content -Path ./puzzle/3.txt | Resolve-ValidMulOperation | Measure-Object -Sum | Select-Object -ExpandProperty Sum

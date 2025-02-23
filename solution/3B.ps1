@@ -1,0 +1,1 @@
+get-content -Path ./puzzle/3.txt -raw | Select-EnabledMemoryBlock | Resolve-ValidMulOperation | Measure-Object -Sum | Select-Object -ExpandProperty Sum
